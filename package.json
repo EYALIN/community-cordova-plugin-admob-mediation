@@ -11,7 +11,10 @@
     ]
   },
   "readme": "README.md",
-  "repository": "EYALIN/community-cordova-plugin-admob-mediation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EYALIN/community-cordova-plugin-admob-mediation.git"
+  },
   "homepage": "https://github.com/EYALIN/community-cordova-plugin-admob-mediation",
   "funding": "https://github.com/sponsors/EYALIN",
   "bugs": "https://github.com/EYALIN/community-cordova-plugin-admob-mediation/issues",
