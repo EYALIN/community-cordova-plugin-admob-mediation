@@ -1,0 +1,49 @@
+{
+  "name": "community-cordova-plugin-admob-mediation",
+  "version": "1.0.0",
+  "description": "Community Cordova AdMob Mediation Partners Plugin - Adds Facebook/Meta, Vungle, and AppLovin mediation adapters for AdMob",
+  "main": "./www/mediation.js",
+  "cordova": {
+    "id": "community-cordova-plugin-admob-mediation",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "readme": "README.md",
+  "repository": "EYALIN/community-cordova-plugin-admob-mediation",
+  "homepage": "https://github.com/EYALIN/community-cordova-plugin-admob-mediation",
+  "funding": "https://github.com/sponsors/EYALIN",
+  "bugs": "https://github.com/EYALIN/community-cordova-plugin-admob-mediation/issues",
+  "keywords": [
+    "cordova",
+    "admob",
+    "mediation",
+    "facebook",
+    "meta",
+    "audience-network",
+    "vungle",
+    "applovin",
+    "ads",
+    "advertising",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "author": "EYALIN",
+  "license": "MIT",
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.1": {
+        "cordova": ">7.0.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  }
+}
