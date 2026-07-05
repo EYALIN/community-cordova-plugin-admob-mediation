@@ -16,7 +16,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="community-cordova-plugin-admob-mediation"
-    version="1.0.0">
+    version="1.1.0">
     <name>AdMobMediation</name>
     <description>Community Cordova AdMob Mediation Partners Plugin - Adds Facebook, Vungle, and AppLovin mediation adapters</description>
     <license>MIT</license>
@@ -45,9 +45,9 @@
         <source-file src="src/android/AdMobMediation.java" target-dir="src/com/community/cordova/admob/mediation" />
 
         <!-- Mediation Adapters -->
-        <framework src="com.google.ads.mediation:facebook:6.21.0.0" />
-        <framework src="com.google.ads.mediation:vungle:7.6.1.0" />
-        <framework src="com.google.ads.mediation:applovin:13.5.1.0" />
+        <framework src="com.google.ads.mediation:facebook:6.21.0.3" />
+        <framework src="com.google.ads.mediation:vungle:7.7.4.2" />
+        <framework src="com.google.ads.mediation:applovin:13.6.3.0" />
     </platform>
 
     <!-- iOS Platform -->
@@ -669,9 +669,9 @@
                 <source url="https://cdn.cocoapods.org/" />
             </config>
             <pods use-frameworks="true">
-                <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.21" />
-                <pod name="GoogleMobileAdsMediationVungle" spec="~> 7.6" />
-                <pod name="GoogleMobileAdsMediationAppLovin" spec="~> 13.5.0.0" />
+                <pod name="GoogleMobileAdsMediationFacebook" spec="~> 6.21.1" />
+                <pod name="GoogleMobileAdsMediationVungle" spec="~> 7.7.4" />
+                <pod name="GoogleMobileAdsMediationAppLovin" spec="~> 13.6.3" />
             </pods>
         </podspec>
     </platform>

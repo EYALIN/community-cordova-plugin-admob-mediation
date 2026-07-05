@@ -1,6 +1,6 @@
 {
   "name": "community-cordova-plugin-admob-mediation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Community Cordova AdMob Mediation Partners Plugin - Adds Facebook/Meta, Vungle, and AppLovin mediation adapters for AdMob",
   "main": "./www/mediation.js",
   "cordova": {
